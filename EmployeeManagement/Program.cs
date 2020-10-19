@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 
 namespace EmployeeManagement
 {
@@ -30,8 +31,13 @@ namespace EmployeeManagement
             emp2.EmpId = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Email id");
             emp2.EmailId = Console.ReadLine();
-            string fileName = @"C:\output\sample.txt";
+            string path = Directory.GetCurrentDirectory();
+            Console.WriteLine(path);
+            
+            string fileName = @path+"sample.txt";
             using (StreamWriter writer = new StreamWriter(fileName))
+               
+
             {
 
                 writer.WriteLine("\t\t\t\t      output");
@@ -39,6 +45,11 @@ namespace EmployeeManagement
                 writer.WriteLine("id             First name             lastname         Email\n\n");
                 writer.WriteLine(emp1.EmpId + "                " + emp1.FirstName + "                " + emp1.LastName + "            " + emp1.EmailId + "\n");
                 writer.WriteLine(emp2.EmpId + "                " + emp2.FirstName + "                " + emp2.LastName + "            " + emp2.EmailId);
+
+            }
+           
+            {
+               
 
             }
         }
