@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebAppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{1A8331A9-A028-4DE8-A0F5-53D71CA522DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverRiding", "OverRiding\OverRiding.csproj", "{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{1A8331A9-A028-4DE8-A0F5-53D71CA522DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A8331A9-A028-4DE8-A0F5-53D71CA522DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A8331A9-A028-4DE8-A0F5-53D71CA522DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
