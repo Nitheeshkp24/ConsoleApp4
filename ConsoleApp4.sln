@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Email", "Email\Email.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{CAEEC3D2-6988-49F9-83E1-70BA09A23A66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{1A8331A9-A028-4DE8-A0F5-53D71CA522DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Area", "Area\Area.csproj", "{1A8331A9-A028-4DE8-A0F5-53D71CA522DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverRiding", "OverRiding\OverRiding.csproj", "{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverRiding", "OverRiding\OverRiding.csproj", "{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product", "Product\Product.csproj", "{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
