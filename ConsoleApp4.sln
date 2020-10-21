@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Area", "Area\Area.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverRiding", "OverRiding\OverRiding.csproj", "{BD87B5C7-44FE-4CA6-A50C-E0A0E214636D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product", "Product\Product.csproj", "{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Product", "Product\Product.csproj", "{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentList", "StudentList\StudentList.csproj", "{1E032040-30E9-43F0-8132-BBA31E24BFCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Productweb", "Productweb\Productweb.csproj", "{F993CF9D-B168-427F-9550-D52BFB7B2C40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1914649-C41C-40EE-AEEC-4AEDAFD7CAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E032040-30E9-43F0-8132-BBA31E24BFCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E032040-30E9-43F0-8132-BBA31E24BFCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E032040-30E9-43F0-8132-BBA31E24BFCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E032040-30E9-43F0-8132-BBA31E24BFCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F993CF9D-B168-427F-9550-D52BFB7B2C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F993CF9D-B168-427F-9550-D52BFB7B2C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F993CF9D-B168-427F-9550-D52BFB7B2C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F993CF9D-B168-427F-9550-D52BFB7B2C40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
