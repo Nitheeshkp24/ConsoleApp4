@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_NewLayout1.cshtml";
+}
+
+<div class="col-md-5">
+    <div class="right-content">
+        <div class="top-content">
+            <h6>Product Details</h6>
+        </div>
+        <form id="contact" action="AddProduct" method="get">
+            <div class="row">
+                <div class="col-md-12">
+                    <fieldset>
+                        <input name="id" type="text" class="form-control" id="id" placeholder="Product Id" required="">
+                    </fieldset>
+                    <fieldset>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="Product Name" required="">
+                    </fieldset>
+                </div>
+                <div class="col-md-12">
+                    <fieldset>
+                        <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+                    </fieldset>
+                </div>
+                <div class="col-md-12">
+                    <fieldset>
+                        <input name="price" type="text" class="form-control" id="phone-number" placeholder="Price" required="">
+                    </fieldset>
+                </div>
+                <div class="col-md-12">
+                    <fieldset>
+                        <button type="submit" id="form-submit" class="button">Get it now</button>
+                    </fieldset>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+     
+

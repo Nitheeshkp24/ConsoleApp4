@@ -1,0 +1,4 @@
+				output
+-------------------------------------------------------------------------------------------
+id                Brandname                Name           email            Price
+1                brand                     name               krishalp96@gmail.com             2

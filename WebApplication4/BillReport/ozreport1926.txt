@@ -1,0 +1,4 @@
+				output
+-------------------------------------------------------------------------------------------
+id                Brandname                Name           email            Price
+1                brand                     name               nitheeshkp24@gmail.com             23
